@@ -7,7 +7,7 @@ RUN apt-get update && \
     curl && \
     git && \
     apt-get clean && \
-    apt-get autoclean && \
+    apt-get autoremove && \
     rm -rf /var/lib/apt/lists/*
 
 ENV ENTRYKIT_VERSION 0.4.0
