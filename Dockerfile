@@ -1,4 +1,4 @@
-FROM python:3.9.2
+FROM python:3.6.13
 LABEL maintainer="reeve0930 <reeve0930@gmail.com>"
 
 RUN apt-get update && \
